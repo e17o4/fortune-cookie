@@ -5,7 +5,8 @@
   <title>Fortune Cookie</title>
   <style>
     body {
-      background: url('https://i.imgur.com/wR7jGxp.jpg') no-repeat center center fixed;
+      /* Reference your local background image */
+      background: url('cookie-bg.jpg') no-repeat center center fixed;
       background-size: cover;
       display: flex;
       justify-content: center;
@@ -57,8 +58,10 @@
     <div class="credit">Your fortune was served fresh by JavaScript.</div>
   </div>
 
+  <!-- Audio element for cookie crack sound -->
   <audio id="crackSound" src="crack.mp3" preload="auto"></audio>
 
+  <!-- External fortune messages file -->
   <script src="fortunes.js"></script>
   <script>
     const fortuneBox = document.getElementById('fortune');
