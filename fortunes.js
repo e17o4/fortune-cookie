@@ -71,7 +71,7 @@ const messages = [
             "'The man who has nothing to boast of but his illustrious ancestry is like the potato - the best part under ground.' -Thomas Overbury",
             "'Fear less, hope more; <br>  Whine less, breathe more; <br> Talk less, say more; <br> Hate less, love more; <br>  And all good things are yours.'-Swedish Proverb",
             "'Sanity calms, but madness is more interesting.' -John Russell",
-            "insert message here",
+            "'If everything in life had a point, there would be no place to sit,' -Blaise Pascal",
             "insert message here",
             "insert message here",
             "insert message here",
