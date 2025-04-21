@@ -72,7 +72,7 @@ const messages = [
             "'Fear less, hope more; <br>  Whine less, breathe more; <br> Talk less, say more; <br> Hate less, love more; <br>  And all good things are yours.'-Swedish Proverb",
             "'Sanity calms, but madness is more interesting.' -John Russell",
             "'If everything in life had a point, there would be no place to sit,' -Blaise Pascal",
-            "insert message here",
+            "'I have the heart of a child. I keep it in a jar on my shelf.'-Robert Bloch",
             "insert message here",
             "insert message here",
             "insert message here",
