@@ -69,6 +69,6 @@ const messages = [
             "'There is a theory which states that if ever anybody discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.' -Douglas Adams",
             "'He who binds himself to joy  Doth the winged life destroy;  But he who kisses the joy as it flies  Lives in Eternity's sunrise.' -William Blake",
             "'The man who has nothing to boast of but his illustrious ancestry is like the potato - the best part under ground.' -Thomas Overbury",
-            "insert message here",
+            "'Fear less, hope more;  Whine less, breathe more;  Talk less, say more;  Hate less, love more;  And all good things are yours.'-Swedish Proverb",
             "insert message here",
           ];
