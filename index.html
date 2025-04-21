@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fortune Cookie</title>
+  <style>
+    body {
+      background: url('https://i.imgur.com/wR7jGxp.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    .fortune-box {
+      background-color: #fff8dc;
+      color: #000;
+      border: 2px solid #c2b280;
+      padding: 20px 30px;
+      max-width: 500px;
+      text-align: center;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    .lucky-number {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    .credit {
+      margin-top: 20px;
+      font-size: 10px;
+      color: #555;
+    }
+
+    #reloadBtn {
+      margin-top: 20px;
+      padding: 5px 15px;
+      background-color: #f0c674;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="fortune-box">
+    <div id="fortune">Loading...</div>
+    <button id="reloadBtn">Crack Another Cookie</button>
+    <div class="credit">Your fortune was served fresh by JavaScript.</div>
+  </div>
+
+  <audio id="crackSound" src="crack.mp3" preload="auto"></audio>
+
+  <script src="fortunes.js"></script>
+  <script>
+    const fortuneBox = document.getElementById('fortune');
+    const crackSound = document.getElementById('crackSound');
+    const button = document.getElementById('reloadBtn');
+
+    function getRandomFortune() {
+      const fortune = messages[Math.floor(Math.random() * messages.length)];
+      const lucky = Math.floor(Math.random() * 100);
+      return `${fortune}<div class="lucky-number">Lucky Number: ${lucky}</div>`;
+    }
+
+    function displayFortune() {
+      crackSound.play();
+      fortuneBox.innerHTML = getRandomFortune();
+    }
+
+    button.addEventListener('click', displayFortune);
+
+    window.onload = displayFortune;
+  </script>
+</body>
+</html>
+
+</center>
+<!-- End Fortune Cookie Script -->
