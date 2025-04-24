@@ -63,14 +63,15 @@
 
   <audio id="crackSound" src="crack.mp3" preload="auto"></audio>
 
-  <!-- Ensure fortunes.js is loaded before the inline script -->
-  <script src="fortunes.js"></script>  
-  <script>
+  <!-- Use defer to ensure fortunes.js is fully loaded before inline script -->
+  <script src="fortunes.js" defer></script>  
+  <script defer>
     const fortuneBox = document.getElementById('fortune');
     const crackSound = document.getElementById('crackSound');
     const button = document.getElementById('reloadBtn');
 
     function getRandomFortune() {
+      // Ensure messages is available after script loads
       const fortune = messages[Math.floor(Math.random() * messages.length)];
       const lucky = Math.floor(Math.random() * 100);
       return `${fortune}<div class="lucky-number">Lucky Number: ${lucky}</div>`;
@@ -87,4 +88,3 @@
   </script>
 </body>
 </html>
-
