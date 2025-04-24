@@ -98,7 +98,7 @@ const messages = [
   "Tomorrow, your printer will jam. For no reason. In front of your boss.",
   "An update is coming. You cannot stop it.",
   "404: Good Fortune Not Found.",
-  "insert message here"
+  "insert message here",
             "I told my code to take a break… it threw a runtime exception instead.",
             "insert message here",
             "insert message here",
