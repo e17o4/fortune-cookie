@@ -5,7 +5,6 @@
   <title>Fortune Cookie</title>
   <style>
     body {
-      /* Reference your local background image */
       background: url('cookie-bg.jpg') no-repeat center center fixed;
       background-size: cover;
       display: flex;
@@ -56,18 +55,16 @@
     <div id="fortune">Loading...</div>
     <button id="reloadBtn">Crack Another Cookie</button>
     <div class="credit">
-  Your fortune was served fresh by JavaScript.<br>
-  Modified with help from ChatGPT.– blame them for bad fortunes 🤣 <br>
-  Got a fortune to share? <a href="https://docs.google.com/forms/d/e/1FAIpQLScQfxkQGJeUnyaThNeIBFVc2kN-2Ac5nUZYQFwppY7wBAFT6Q/viewform?usp=dialog">Submit one here!</a>
-</div>
-
+      Your fortune was served fresh by JavaScript.<br>
+      Modified with help from ChatGPT.– blame them for bad fortunes 🤣 <br>
+      Got a fortune to share? <a href="https://docs.google.com/forms/d/e/1FAIpQLScQfxkQGJeUnyaThNeIBFVc2kN-2Ac5nUZYQFwppY7wBAFT6Q/viewform?usp=dialog">Submit one here!</a>
+    </div>
   </div>
 
-  <!-- Audio element for cookie crack sound -->
   <audio id="crackSound" src="crack.mp3" preload="auto"></audio>
 
-  <!-- External fortune messages file -->
-  <script src="fortunes.js"></script>
+  <!-- Ensure fortunes.js is loaded before the inline script -->
+  <script src="fortunes.js"></script>  
   <script>
     const fortuneBox = document.getElementById('fortune');
     const crackSound = document.getElementById('crackSound');
@@ -90,3 +87,4 @@
   </script>
 </body>
 </html>
+
