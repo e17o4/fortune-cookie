@@ -52,7 +52,7 @@ const messages = [
   "What cookies?",
   "ICY GOLF BALLS OF DEATH FALLING FROM THE SKY!",
   "'OH THE HUMANITY!'",
-  "Cave Johnson: When life gives you lemons, don't make lemonade. Make life take the lemons back! Get mad! "I don't want your damn lemons!" Demand to see life's manager! I'm gonna get my engineers to invent a combustible lemon that'll burn your house down! <br> GLaDOS: Burning people. He says what we're all thinking.<br>– <i>Portal 2</i>",
+  "Cave Johnson: When life gives you lemons, don't make lemonade. Make life take the lemons back! Get mad! \"I don't want your damn lemons!\" Demand to see life's manager! I'm gonna get my engineers to invent a combustible lemon that'll burn your house down! <br> GLaDOS: Burning people. He says what we're all thinking.<br>– <i>Portal 2</i>"
   "'Duct tape is like the force. It has a light side, a dark side, and it holds the universe together....' -Carl Zwanzig",
   "'Opportunity is missed by most people because it is dressed in overalls and looks like work.' -Thomas A. Edison",
   "'Always acknowledge a fault. This will throw those in authority off their guard and give you an opportunity to commit more.' -Mark Twain",
