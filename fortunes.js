@@ -1,4 +1,4 @@
-// External fortune list
+// fortunes.js
 const messages = [
   "Candy is delicious.",
   "Don't set zombies on fire.",
